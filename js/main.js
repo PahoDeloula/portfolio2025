@@ -8,7 +8,7 @@ const scrollHeader = () =>{
 window.addEventListener('scroll', scrollHeader)
 
 /*=============== SERVICES MODAL ===============*/
-const modalViews = document.querySelectorAll(".services__modal"),
+/*const modalViews = document.querySelectorAll(".services__modal"),
 modalBtns = document.querySelectorAll(".services__button"),
 modalClose = document.querySelectorAll(".services__modal-close")
 
@@ -28,7 +28,7 @@ modalClose.forEach((mc) =>{
             mv.classList.remove("active-modal")
         })
     })
-})
+})*/
 
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
 let mixerPortfolio = mixitup('.work__container', {
