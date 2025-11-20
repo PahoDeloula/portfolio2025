@@ -525,6 +525,13 @@ body.light-theme{
   font-size: var(--tiny-font-size);
 }
 
+.description__web{
+  font-size: var(--small-font-size);
+  line-height: 28px;
+  margin: 0px 0px 20px 0px;
+  padding: 0px 0px 20px 0px;
+}
+
 /*=============== SERVICES ===============*/
 .services__container{
   grid-template-columns: repeat(2,1fr);
@@ -671,6 +678,14 @@ body.light-theme{
   font-weight: var(--font-medium);
   margin-bottom: .85rem;
   line-height: 1.5rem;
+}
+
+.work__description{
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+  margin-top: 0px;
+  margin-bottom: 25px;
+  line-height: 1.3rem;
 }
 
 .work__button{
